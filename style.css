@@ -1,0 +1,51 @@
+body,
+html {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    scroll-behavior: smooth;
+
+}
+
+#header {
+    background-image: url('https://i.pinimg.com/originals/90/3c/e8/903ce82d065d12a760eeafe2aec9935a.jpg');
+
+}
+
+#header {
+    height: 100%;
+}
+
+#main {
+    background-image: url('https://st2.depositphotos.com/3213441/12022/v/600/depositphotos_120226584-stock-illustration-pokemon-go-pokeball-seamless-texture.jpg');
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height: 400%;
+}
+
+button {
+    font-size: 65px;
+    font-family: 'Squada One', cursive;
+    color: #ffcb05;
+    -webkit-text-stroke: 3px #2a75bb;
+    background-color: rgba(255, 203, 5, 0.6);
+    border-radius: 10px;
+    border-width: none;
+    transition-duration: 0.5s;
+}
+
+button:hover {
+    color: #ebba00;
+    -webkit-text-stroke: 3px #3c5aa6;
+}
+
+
+
+.pokemon {
+    border-radius: 50%;
+    border: black 3px solid;
+    margin: 20px;
+    background-color: white;
+    align-items: center;
+    width: 400px;
+}
